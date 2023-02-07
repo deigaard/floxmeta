@@ -1,0 +1,15 @@
+{
+  "currentGen": "1",
+  "generations": {
+    "1": {
+      "created": 1675794104,
+      "lastActive": 1675794104,
+      "logMessage": [
+        "ubuntu installed stable.nixpkgs-flox.cowsay"
+      ],
+      "path": "/nix/store/kc2y7l6nx7b55jb55p05jk6ja7ykkvrh-floxShell",
+      "version": 2
+    }
+  },
+  "version": 1
+}
