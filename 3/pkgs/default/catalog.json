@@ -1,0 +1,197 @@
+{
+  "nixpkgs-flox": {
+    "x86_64-linux": {
+      "stable": {
+        "cowsay": {
+          "latest": {
+            "cache": {
+              "man": {
+                "https://cache.nixos.org": {}
+              },
+              "out": {
+                "https://cache.nixos.org": {}
+              }
+            },
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "outputs": null,
+              "storePaths": [
+                "/nix/store/71dfr0y39b220m81h6pjlf3w91gjcdm4-cowsay-3.04",
+                "/nix/store/vqvnaanh1sj7rpyi11z5k9j1m63qbkp8-cowsay-3.04-man"
+              ],
+              "url": "github:flox/nixpkgs/fad51abd42ca17a60fc1d4cb9382e2d79ae31836"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program which generates ASCII pictures of a cow with a message",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/wh4nnz2ga9lpxl406ia1cnsi891xaa4x-source/pkgs/tools/misc/cowsay/default.nix:41",
+                "unfree": false
+              },
+              "name": "cowsay-3.04",
+              "outputs": {
+                "man": "/nix/store/vqvnaanh1sj7rpyi11z5k9j1m63qbkp8-cowsay-3.04-man",
+                "out": "/nix/store/71dfr0y39b220m81h6pjlf3w91gjcdm4-cowsay-3.04"
+              },
+              "pname": "cowsay",
+              "system": "x86_64-linux",
+              "version": "3.04"
+            },
+            "publish_element": {
+              "active": true,
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/fx6ga88b4mrmxfhzrrrbi1ivabwk8vyd-cowsay-3.04"
+              ],
+              "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+            },
+            "schema": 1,
+            "source": {
+              "locked": {
+                "lastModified": 1671983799,
+                "revCount": 437630
+              }
+            },
+            "type": "catalogRender"
+          }
+        },
+        "hello": {
+          "latest": {
+            "cache": {
+              "out": {
+                "https://cache.nixos.org": {}
+              }
+            },
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "outputs": null,
+              "storePaths": [
+                "/nix/store/33l4p0pn0mybmqzaxfkpppyh7vx1c74p-hello-2.12.1"
+              ],
+              "url": "github:flox/nixpkgs/fad51abd42ca17a60fc1d4cb9382e2d79ae31836"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that produces a familiar, friendly greeting",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/wh4nnz2ga9lpxl406ia1cnsi891xaa4x-source/pkgs/applications/misc/hello/default.nix:34",
+                "unfree": false
+              },
+              "name": "hello-2.12.1",
+              "outputs": {
+                "out": "/nix/store/33l4p0pn0mybmqzaxfkpppyh7vx1c74p-hello-2.12.1"
+              },
+              "pname": "hello",
+              "system": "x86_64-linux",
+              "version": "2.12.1"
+            },
+            "publish_element": {
+              "active": true,
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/xjl5h96lgx3m2ll8fwyqzyjrx46ndlmc-hello-2.12.1"
+              ],
+              "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+            },
+            "schema": 1,
+            "source": {
+              "locked": {
+                "lastModified": 1671983799,
+                "revCount": 437630
+              }
+            },
+            "type": "catalogRender"
+          }
+        },
+        "htop": {
+          "latest": {
+            "cache": {
+              "out": {
+                "https://cache.nixos.org": {}
+              }
+            },
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "htop"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "outputs": null,
+              "storePaths": [
+                "/nix/store/6l8wkm667h69iry5q9z4j9xy9fd5v0dw-htop-3.2.1"
+              ],
+              "url": "github:flox/nixpkgs/fad51abd42ca17a60fc1d4cb9382e2d79ae31836"
+            },
+            "eval": {
+              "meta": {
+                "description": "An interactive process viewer",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/wh4nnz2ga9lpxl406ia1cnsi891xaa4x-source/pkgs/tools/system/htop/default.nix:43",
+                "unfree": false
+              },
+              "name": "htop-3.2.1",
+              "outputs": {
+                "out": "/nix/store/6l8wkm667h69iry5q9z4j9xy9fd5v0dw-htop-3.2.1"
+              },
+              "pname": "htop",
+              "system": "x86_64-linux",
+              "version": "3.2.1"
+            },
+            "publish_element": {
+              "active": true,
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "htop"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/8gvi0jc9ybnb451ksxfzbn87z45yfnwq-htop-3.2.1"
+              ],
+              "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+            },
+            "schema": 1,
+            "source": {
+              "locked": {
+                "lastModified": 1671983799,
+                "revCount": 437630
+              }
+            },
+            "type": "catalogRender"
+          }
+        }
+      }
+    }
+  }
+}

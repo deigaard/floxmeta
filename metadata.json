@@ -1,5 +1,5 @@
 {
-  "currentGen": "2",
+  "currentGen": "3",
   "generations": {
     "1": {
       "created": 1675794104,
@@ -12,11 +12,20 @@
     },
     "2": {
       "created": 1675808010,
-      "lastActive": 1675808010,
+      "lastActive": 1675808189,
       "logMessage": [
         "ubuntu installed stable.nixpkgs-flox.hello"
       ],
       "path": "/nix/store/k113lx7vqphlzgzjmf2i0rji00hzqh2k-floxShell",
+      "version": 2
+    },
+    "3": {
+      "created": 1675808189,
+      "lastActive": 1675808189,
+      "logMessage": [
+        "ubuntu edited declarative profile (generation 3)"
+      ],
+      "path": "/nix/store/vwcni752gmr6j9pdx8456rp00k9l3gq4-floxShell",
       "version": 2
     }
   },
