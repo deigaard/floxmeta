@@ -1,13 +1,22 @@
 {
-  "currentGen": "1",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1675820240,
-      "lastActive": 1675820240,
+      "lastActive": 1675821320,
       "logMessage": [
         "ubuntu installed stable.nixpkgs-flox.terraform stable.nixpkgs-flox.packer stable.nixpkgs-flox.consul stable.nixpkgs-flox.gnumake"
       ],
       "path": "/nix/store/xjshmz9jzmvl8fladw6w843qc1w4brqd-floxShell",
+      "version": 2
+    },
+    "2": {
+      "created": 1675821320,
+      "lastActive": 1675821320,
+      "logMessage": [
+        "ubuntu installed stable.nixpkgs-flox.nomad"
+      ],
+      "path": "/nix/store/h0qf7n566kd15zjph8dspz51z6rni0jw-floxShell",
       "version": 2
     }
   },
