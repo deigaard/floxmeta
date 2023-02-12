@@ -1,5 +1,5 @@
 {
-  "currentGen": "2",
+  "currentGen": "3",
   "generations": {
     "1": {
       "created": 1675820240,
@@ -12,11 +12,20 @@
     },
     "2": {
       "created": 1675821320,
-      "lastActive": 1675821320,
+      "lastActive": 1676173194,
       "logMessage": [
         "ubuntu installed stable.nixpkgs-flox.nomad"
       ],
       "path": "/nix/store/h0qf7n566kd15zjph8dspz51z6rni0jw-floxShell",
+      "version": 2
+    },
+    "3": {
+      "created": 1676173194,
+      "lastActive": 1676173194,
+      "logMessage": [
+        "ubuntu installed stable.nixpkgs-flox.steampipe"
+      ],
+      "path": "/nix/store/xwcz5a2pjv37w6zllc0pgv0jnbpj8pfi-floxShell",
       "version": 2
     }
   },
