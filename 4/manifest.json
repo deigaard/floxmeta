@@ -1,0 +1,75 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.consul",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/a04sbnqvyfkf1ichdp67xqxamyhadbb1-consul-1.14.3"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.gh",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/swnmjr0cvigrvvwbqw3g6f7rn2p87xl7-gh-2.20.2"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.gnumake",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wfgca8ddps20ir7ywa4jfh7449bj9225-gnumake-4.4"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.nomad",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/mhc0lx7p317zdicxjmndqnmld2dcsz6f-nomad-1.4.3"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.packer",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/lrg2w1an98q8rh2cspcp6qargpbz0kcy-packer-1.8.5"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.steampipe",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hr45p1hj0p36hzhc0y501g198rla3cvw-steampipe-0.16.4"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.x86_64-linux.stable.terraform",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/hsx9d1gll45r1cm8c2ira6d1gbc1b38j-terraform-1.3.6"
+      ],
+      "url": "flake:nixpkgs-flox/bc44d6d77530ff0f5d7cdf28b4d8feb37bc8af70"
+    }
+  ],
+  "version": 2
+}
