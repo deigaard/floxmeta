@@ -1,0 +1,341 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-linux": {
+      "stable": {
+        "cowsay": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/6zsg03dvskx7ni3hw503d0f8wgc02qya-cowsay-3.7.0-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/swq2hnjvm59685z3rbisgxv1nmzwsjb8-cowsay-3.7.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-linux",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/swq2hnjvm59685z3rbisgxv1nmzwsjb8-cowsay-3.7.0",
+                "/nix/store/6zsg03dvskx7ni3hw503d0f8wgc02qya-cowsay-3.7.0-man"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program which generates ASCII pictures of a cow with a message",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/tools/misc/cowsay/default.nix:40",
+                "unfree": false
+              },
+              "name": "cowsay-3.7.0",
+              "outputs": {
+                "man": "/nix/store/6zsg03dvskx7ni3hw503d0f8wgc02qya-cowsay-3.7.0-man",
+                "out": "/nix/store/swq2hnjvm59685z3rbisgxv1nmzwsjb8-cowsay-3.7.0"
+              },
+              "pname": "cowsay",
+              "system": "aarch64-linux",
+              "version": "3.7.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-linux",
+                "stable",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/swq2hnjvm59685z3rbisgxv1nmzwsjb8-cowsay-3.7.0",
+                "/nix/store/6zsg03dvskx7ni3hw503d0f8wgc02qya-cowsay-3.7.0-man"
+              ],
+              "url": "flake:nixpkgs-flox/161d796694186467cf1e17a55dce2d0546caacba"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "fortune": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/h08wl54qfdlprpbpvymqg5drsndmbn5s-fortune-mod-3.18.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-linux",
+                "fortune"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/h08wl54qfdlprpbpvymqg5drsndmbn5s-fortune-mod-3.18.0"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that displays a pseudorandom message from a database of quotations",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/tools/misc/fortune/default.nix:45",
+                "unfree": false
+              },
+              "name": "fortune-mod-3.18.0",
+              "outputs": {
+                "out": "/nix/store/h08wl54qfdlprpbpvymqg5drsndmbn5s-fortune-mod-3.18.0"
+              },
+              "pname": "fortune-mod",
+              "system": "aarch64-linux",
+              "version": "3.18.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-linux",
+                "stable",
+                "fortune"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/h08wl54qfdlprpbpvymqg5drsndmbn5s-fortune-mod-3.18.0"
+              ],
+              "url": "flake:nixpkgs-flox/21dc062853f6e56c526a69f63e782bf6e1f237aa"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "k9s": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/iy8pll78q36wlsx94nqj85b6wbv8hc5q-k9s-0.27.3",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-linux",
+                "k9s"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/iy8pll78q36wlsx94nqj85b6wbv8hc5q-k9s-0.27.3"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "Kubernetes CLI To Manage Your Clusters In Style",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/applications/networking/cluster/k9s/default.nix:46",
+                "unfree": false
+              },
+              "name": "k9s-0.27.3",
+              "outputs": {
+                "out": "/nix/store/iy8pll78q36wlsx94nqj85b6wbv8hc5q-k9s-0.27.3"
+              },
+              "pname": "k9s",
+              "system": "aarch64-linux",
+              "version": "0.27.3"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-linux",
+                "stable",
+                "k9s"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/iy8pll78q36wlsx94nqj85b6wbv8hc5q-k9s-0.27.3"
+              ],
+              "url": "flake:nixpkgs-flox/21dc062853f6e56c526a69f63e782bf6e1f237aa"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "steampipe": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/w120q2kzjdwrcmawf0z0d9vx64m2d06i-steampipe-0.19.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-linux",
+                "steampipe"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/w120q2kzjdwrcmawf0z0d9vx64m2d06i-steampipe-0.19.2"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "select * from cloud;",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/tools/misc/steampipe/default.nix:40",
+                "unfree": false
+              },
+              "name": "steampipe-0.19.2",
+              "outputs": {
+                "out": "/nix/store/w120q2kzjdwrcmawf0z0d9vx64m2d06i-steampipe-0.19.2"
+              },
+              "pname": "steampipe",
+              "system": "aarch64-linux",
+              "version": "0.19.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-linux",
+                "stable",
+                "steampipe"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/w120q2kzjdwrcmawf0z0d9vx64m2d06i-steampipe-0.19.2"
+              ],
+              "url": "flake:nixpkgs-flox/21dc062853f6e56c526a69f63e782bf6e1f237aa"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "terraform": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/h6f945qjzm1d9qay18whd14gi73jcqbw-terraform-1.4.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-linux",
+                "terraform"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/h6f945qjzm1d9qay18whd14gi73jcqbw-terraform-1.4.2"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "Tool for building, changing, and versioning infrastructure",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/applications/networking/cluster/terraform/default.nix:54",
+                "unfree": false
+              },
+              "name": "terraform-1.4.2",
+              "outputs": {
+                "out": "/nix/store/h6f945qjzm1d9qay18whd14gi73jcqbw-terraform-1.4.2"
+              },
+              "pname": "terraform",
+              "system": "aarch64-linux",
+              "version": "1.4.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-linux",
+                "stable",
+                "terraform"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/h6f945qjzm1d9qay18whd14gi73jcqbw-terraform-1.4.2"
+              ],
+              "url": "flake:nixpkgs-flox/21dc062853f6e56c526a69f63e782bf6e1f237aa"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}
