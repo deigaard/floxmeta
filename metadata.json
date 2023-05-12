@@ -1,5 +1,5 @@
 {
-  "currentGen": "3",
+  "currentGen": "4",
   "generations": {
     "1": {
       "created": 1683813327,
@@ -21,11 +21,20 @@
     },
     "3": {
       "created": 1683856712,
-      "lastActive": 1683856712,
+      "lastActive": 1683856767,
       "logMessage": [
         "soren installed stable.nixpkgs-flox.terraform"
       ],
       "path": "/nix/store/wg2hkrnsvbh8r9r2n95p421d3az55xc7-floxShell",
+      "version": 2
+    },
+    "4": {
+      "created": 1683856767,
+      "lastActive": 1683856767,
+      "logMessage": [
+        "soren installed stable.nixpkgs-flox.steampipe"
+      ],
+      "path": "/nix/store/qym9b5iw7dlsvcp9i756qqsic0zk0y6j-floxShell",
       "version": 2
     }
   },
