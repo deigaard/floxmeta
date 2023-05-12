@@ -1,13 +1,22 @@
 {
-  "currentGen": "1",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1683813327,
-      "lastActive": 1683813327,
+      "lastActive": 1683856037,
       "logMessage": [
         "soren installed stable.nixpkgs-flox.cowsay"
       ],
       "path": "/nix/store/758jrgg35ppv86kjnpxc9ms0z782545q-floxShell",
+      "version": 2
+    },
+    "2": {
+      "created": 1683856037,
+      "lastActive": 1683856037,
+      "logMessage": [
+        "soren installed stable.nixpkgs-flox.fortune"
+      ],
+      "path": "/nix/store/iqgvq1czvw99jkn36yl0a8as63gjb9as-floxShell",
       "version": 2
     }
   },

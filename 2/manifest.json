@@ -1,0 +1,26 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-linux.stable.cowsay",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/swq2hnjvm59685z3rbisgxv1nmzwsjb8-cowsay-3.7.0",
+        "/nix/store/6zsg03dvskx7ni3hw503d0f8wgc02qya-cowsay-3.7.0-man"
+      ],
+      "url": "flake:nixpkgs-flox/161d796694186467cf1e17a55dce2d0546caacba"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-linux.stable.fortune",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/h08wl54qfdlprpbpvymqg5drsndmbn5s-fortune-mod-3.18.0"
+      ],
+      "url": "flake:nixpkgs-flox/21dc062853f6e56c526a69f63e782bf6e1f237aa"
+    }
+  ],
+  "version": 2
+}
